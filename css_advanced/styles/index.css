@@ -1,0 +1,78 @@
+header {
+    background-image: url(../figma_images/Header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 100%;
+   overflow: hidden;
+}
+
+header > a > img{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.menu-container {
+    float: right;
+    width: 40%;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.header-description > h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    background-width: 684px;
+    background-height: 151px;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.header-description > div {
+    display: block;
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.header-description > div > span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-left: 120px auto;
+    padding: 20px;
+}
+
+.header-description > div > button {
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottom-header > h2 > span {
+ text-align: center;
+ font-size: 40px;
+
+}
+.person-container {
+width: 90%;
+margin: 0 auto;
+   overflow: hidden;
+   display: block;
+
+   }
+   .person-container .person > h3 , .person-container .person > p {
+    text-align: center;
+    
+       }
