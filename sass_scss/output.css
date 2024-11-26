@@ -1,19 +1,18 @@
-/* Error: The default namespace "10-colors" is not a valid Sass identifier.
- * 
- * Recommendation: add an "as" clause to define an explicit namespace.
- *   ,
- * 3 | @use '10-colors';
- *   | ^^^^^^^^^^^^^^^^
- *   '
- *   10-import_colors.scss 3:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: The default namespace \"10-colors\" is not a valid Sass identifier.\a\aRecommendation: add an \"as\" clause to define an explicit namespace.\a   \2577 \a 3 \2502  @use '10-colors';\a   \2502  ^^^^^^^^^^^^^^^^\a   \2575 \a   10-import_colors.scss 3:1  root stylesheet";
+/* 10-import_colors.scss */
+/* Import the 10-colors file */
+/* 10-colors.scss */
+/* Define color variables */
+/* Assign text colors to the classes */
+.red {
+  color: #FF0000;
 }
+
+.green {
+  color: #00FF00;
+}
+
+.blue {
+  color: #0000FF;
+}
+
+/*# sourceMappingURL=output.css.map */
