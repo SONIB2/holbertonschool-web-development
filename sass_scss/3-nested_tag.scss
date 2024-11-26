@@ -1,0 +1,12 @@
+// Task: Assign no margin or padding to the body tag, 
+// and 10px margin to all p tags inside body tags using nested declarations.
+
+body {
+    margin: 0;
+    padding: 0;
+  
+    p {
+      margin: 10px;
+    }
+  }
+  
