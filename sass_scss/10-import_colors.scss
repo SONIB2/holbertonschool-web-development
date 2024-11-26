@@ -3,13 +3,13 @@
 
 // Use the imported color variables in the respective classes
 .red {
-  color: $red;
+  color: $red = #FF0000;
 }
 
 .green {
-  color: $green;
+  color: $green = #00FF00;
 }
 
 .blue {
-  color: $blue;
+  color: $blue = #0000FF;
 }
