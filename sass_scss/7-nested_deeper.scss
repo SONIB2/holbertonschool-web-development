@@ -1,0 +1,14 @@
+// Task: Set font sizes using nested declarations for body and h1 tags with class .smaller
+
+body {
+    font-size: 14px;
+  
+    h1 {
+      font-size: 16px;
+  
+      &.smaller {
+        font-size: 12px;
+      }
+    }
+  }
+  
