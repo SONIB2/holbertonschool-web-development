@@ -1,5 +1,5 @@
-/* photos.scss */
-@import "variables";
+
+@import "11-variables.scss";
 
 @each $name in $list-names {
   .photo-#{$name} {
